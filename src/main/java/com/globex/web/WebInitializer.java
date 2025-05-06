@@ -17,7 +17,6 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
     @Override
     protected String[] getServletMappings() {
-        System.out.println("hi there :)")
         return new String[]{"/"};
     }
 
